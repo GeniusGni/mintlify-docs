@@ -50,6 +50,15 @@
             ]
           },
           {
+            "group": "Account and subscriptions",
+            "icon": "id-card-clip",
+            "pages": [
+              "guides/account-and-subscriptions/untitled-page",
+              "guides/account-and-subscriptions/untitled-page-1",
+              "guides/account-and-subscriptions/untitled-page-3"
+            ]
+          },
+          {
             "group": "Publishing your app",
             "icon": "rocket-launch",
             "pages": [
@@ -61,16 +70,6 @@
             "icon": "grid-2-plus",
             "pages": [
               "guides/integrations/mcp"
-            ]
-          },
-          {
-            "group": "Account and subscriptions",
-            "icon": "id-card-clip",
-            "pages": [
-              "guides/account-and-subscriptions/untitled-page",
-              "guides/account-and-subscriptions/untitled-page-1",
-              "guides/account-and-subscriptions/untitled-page-2",
-              "guides/account-and-subscriptions/untitled-page-3"
             ]
           }
         ]
