@@ -22,14 +22,27 @@
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "group": "Working with CodeBanana",
+            "pages": []
           },
           {
-            "group": "Writing content",
+            "group": "Publishing your app",
+            "pages": []
+          },
+          {
+            "group": "Integrations",
+            "pages": []
+          },
+          {
+            "group": "Account and subscriptions",
+            "pages": []
+          },
+          {
+            "group": "Teams",
+            "pages": []
+          },
+          {
+            "group": "help1",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -38,7 +51,15 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "help2",
+            "icon": "code-fork",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "help3",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
