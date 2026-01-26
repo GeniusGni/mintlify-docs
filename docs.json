@@ -17,6 +17,14 @@
             "group": "Getting started",
             "pages": [
               "index",
+              {
+                "group": "Quickstarts",
+                "pages": [
+                  "guides/getting-started/quickstarts/untitled-page",
+                  "guides/getting-started/quickstarts/untitled-page-1",
+                  "guides/getting-started/quickstarts/untitled-page-2"
+                ]
+              },
               "quickstart"
             ]
           },
@@ -28,19 +36,38 @@
           },
           {
             "group": "Publishing your app",
-            "pages": []
+            "pages": [
+              {
+                "group": "Deployment Types",
+                "pages": [
+                  "guides/publishing-your-app/deployment-types/untitled-page"
+                ]
+              }
+            ]
           },
           {
             "group": "Integrations",
-            "pages": []
+            "pages": [
+              "guides/integrations/mcp"
+            ]
           },
           {
             "group": "Account and subscriptions",
-            "pages": []
+            "pages": [
+              "guides/account-and-subscriptions/untitled-page",
+              "guides/account-and-subscriptions/untitled-page-1",
+              "guides/account-and-subscriptions/untitled-page-2",
+              "guides/account-and-subscriptions/untitled-page-3"
+            ]
           },
           {
             "group": "Teams",
-            "pages": []
+            "pages": [
+              "guides/teams/untitled-page",
+              "guides/teams/untitled-page-1",
+              "guides/teams/managing-teams",
+              "guides/teams/project-controls"
+            ]
           },
           {
             "group": "help1",
