@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "aspen",
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -103,5 +103,8 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "logo": "/images/logo.webp"
+  "logo": {
+    "light": "/images/logo.webp",
+    "dark": "/images/logo.webp"
+  }
 }
