@@ -29,6 +29,15 @@
             ]
           },
           {
+            "group": "Account and subscriptions",
+            "icon": "id-card-clip",
+            "pages": [
+              "guides/account-and-subscriptions/untitled-page",
+              "guides/account-and-subscriptions/untitled-page-1",
+              "guides/account-and-subscriptions/untitled-page-3"
+            ]
+          },
+          {
             "group": "Working in CodeBanana",
             "icon": "computer",
             "pages": [
@@ -47,15 +56,6 @@
               "guides/teams/untitled-page-1",
               "guides/teams/managing-teams",
               "guides/teams/project-controls"
-            ]
-          },
-          {
-            "group": "Account and subscriptions",
-            "icon": "id-card-clip",
-            "pages": [
-              "guides/account-and-subscriptions/untitled-page",
-              "guides/account-and-subscriptions/untitled-page-1",
-              "guides/account-and-subscriptions/untitled-page-3"
             ]
           },
           {
