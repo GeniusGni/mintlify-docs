@@ -15,6 +15,7 @@
         "groups": [
           {
             "group": "Getting started",
+            "icon": "bolt-lightning",
             "pages": [
               "index",
               {
@@ -30,12 +31,14 @@
           },
           {
             "group": "Working in CodeBanana",
+            "icon": "computer",
             "pages": [
               "guides/working-with-code-banana/untitled-page"
             ]
           },
           {
             "group": "Publishing your app",
+            "icon": "rocket-launch",
             "pages": [
               {
                 "group": "Deployment Types",
@@ -47,12 +50,14 @@
           },
           {
             "group": "Integrations",
+            "icon": "grid-2-plus",
             "pages": [
               "guides/integrations/mcp"
             ]
           },
           {
             "group": "Account and subscriptions",
+            "icon": "id-card-clip",
             "pages": [
               "guides/account-and-subscriptions/untitled-page",
               "guides/account-and-subscriptions/untitled-page-1",
@@ -62,6 +67,7 @@
           },
           {
             "group": "Teams",
+            "icon": "screen-users",
             "pages": [
               "guides/teams/untitled-page",
               "guides/teams/untitled-page-1",
@@ -133,5 +139,8 @@
   "logo": {
     "light": "/images/logo.webp",
     "dark": "/images/logo.webp"
+  },
+  "search": {
+    "prompt": "Search for..."
   }
 }
