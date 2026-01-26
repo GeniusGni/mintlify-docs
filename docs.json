@@ -21,9 +21,9 @@
               {
                 "group": "Quickstarts",
                 "pages": [
-                  "guides/getting-started/quickstarts/untitled-page",
-                  "guides/getting-started/quickstarts/untitled-page-1",
-                  "guides/getting-started/quickstarts/untitled-page-2"
+                  "quickstarts/firstapp",
+                  "quickstarts/templates",
+                  "quickstarts/github"
                 ]
               },
               "quickstart"
