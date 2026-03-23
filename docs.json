@@ -29,6 +29,20 @@
             ]
           },
           {
+            "group": "Working in CodeBanana",
+            "icon": "computer",
+            "pages": [
+              "guides/working-in-code-banana/team-agent-mode",
+              "guides/working-in-code-banana/models",
+              "guides/working-in-code-banana/untitled-page",
+              "guides/working-in-code-banana/project-management",
+              "guides/working-in-code-banana/coding-view",
+              "guides/working-in-code-banana/skills",
+              "guides/working-in-code-banana/cron",
+              "guides/working-in-code-banana/imsetting"
+            ]
+          },
+          {
             "group": "Account and subscriptions",
             "icon": "id-card-clip",
             "pages": [
@@ -38,24 +52,12 @@
             ]
           },
           {
-            "group": "Working in CodeBanana",
-            "icon": "computer",
-            "pages": [
-              "guides/working-with-code-banana/untitled-page",
-              "guides/working-in-code-banana/team-agent-mode",
-              "guides/working-in-code-banana/untitled-page",
-              "guides/working-in-code-banana/project-management",
-              "guides/working-in-code-banana/coding-view"
-            ]
-          },
-          {
             "group": "Teams",
             "icon": "screen-users",
             "pages": [
               "guides/teams/untitled-page",
               "guides/teams/untitled-page-1",
-              "guides/teams/managing-teams",
-              "guides/teams/project-controls"
+              "guides/teams/managing-teams"
             ]
           },
           {
@@ -63,13 +65,6 @@
             "icon": "rocket-launch",
             "pages": [
               "guides/publishing-your-app/deployment-types/untitled-page"
-            ]
-          },
-          {
-            "group": "Integrations",
-            "icon": "grid-2-plus",
-            "pages": [
-              "guides/integrations/mcp"
             ]
           }
         ]
