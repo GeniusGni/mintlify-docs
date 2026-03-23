@@ -120,5 +120,9 @@
   },
   "search": {
     "prompt": "Search for..."
+  },
+  "banner": {
+    "content": "good",
+    "dismissible": true
   }
 }
