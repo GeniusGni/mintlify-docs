@@ -38,7 +38,6 @@
               "guides/working-in-code-banana/projectViewer",
               {
                 "group": "Agent Config",
-                "icon": "robot",
                 "pages": [
                   "guides/working-in-code-banana/basici",
                   "guides/working-in-code-banana/imsetting",
