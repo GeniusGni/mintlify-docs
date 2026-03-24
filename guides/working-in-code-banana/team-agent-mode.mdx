@@ -1,9 +1,9 @@
 ---
 title: "Agent modes"
-description: "Understand the different agent modes and how to collaborate with your team"
+description: "Understand the different agent modes and how to collaborate in your projects"
 ---
 
-## Project and chat relationship
+## Project and Chat modes
 
 Each project in CodeBanana has a corresponding group chat that supports three distinct chat modes for different collaboration needs.
 
@@ -13,49 +13,108 @@ Every project group chat includes three modes:
 
 #### Team agent
 
-Team agent mode enables collaborative work with AI assistance:
+Team Agent mode is designed for **shared, controlled collaboration with AI** in a team environment. Instead of each individual interacting with a separate assistant, the team works with a **single, project-level agent** that operates on a shared codebase, shared context, and shared objectives.
 
-- Only one team member can interact with the agent at a time
-- Agent permissions are controlled by the group owner
-- The owner can revoke agent access from other members during their conversation
-- When multiple members request agent access simultaneously, the owner can only approve one request at a time
-- Other requests remain in pending status until approved
+This mode ensures that AI-driven changes remain **visible, coordinated, and aligned** across the entire team.
+
+<Frame>
+  ![Chatmodes](/images/chatmodes.png)
+</Frame>
+
+#### **What is Team Agent**
+
+Team Agent is a **centralized AI collaborator** for the project:
+
+- Operates on the **entire project context** (repo, files, discussions, history)
+- Acts as a **shared execution layer** for coding, refactoring, debugging, and task automation
+- Ensures all AI-generated changes are **transparent and traceable** within the team workspace
+
+Unlike personal AI tools, Team Agent is not private. Every interaction contributes to the **collective project state**.
+
+#### **Collaboration**
+
+To maintain consistency and avoid conflicts, Team Agent follows a **controlled interaction model**:
+
+- Only **one team member can interact with the agent at a time. **By default, interaction with the Team Agent is restricted to the **project owner**
+- When other members want to use the Team Agent:
+  - They must **request access from the owner**
+  - Once approved, **only that member is granted interaction rights with the agent**
+  - During this period, all other members do not have access until control is reassigned
+- During an active session:
+  - The agent executes tasks based on the current user’s instructions
+  - All changes are **immediately visible to the team**
+- Usage is attributed to the** project owner **
+
+This model ensures that AI actions are **sequential, reviewable, and non-conflicting**, similar to a “single writer” system in collaborative editing.
+
+<Frame>
+  ![Teamagentrequest](/images/Teamagentrequest.png)
+</Frame>
+
+#### **Agent Modes**
+
+Agent Modes define how the agent interacts with your project, from read-only assistance to direct code execution.
+
+- **Ask-only**
+  Read-only mode. The agent answers questions and provides guidance without modifying any files.
+- **Coding**
+  Execution mode. The agent can directly write and edit code within the project.
+- **CodeBanana (Optimized Model)**
+  Enhanced for project-level tasks such as development, environment handling, and deployment.
+  More capable, but may consume additional tokens.
+- **Claude Code (Native Model)**
+  Faster and more lightweight. Requires more explicit prompting and user guidance.
+
+<Frame>
+  ![Agentmode](/images/Agentmode.png)
+</Frame>
 
 #### My agent
 
-My agent mode provides personal AI assistance:
+My Agent mode provides **personal AI assistance within the project**, allowing users to work independently without affecting the shared workflow.
 
-- Primarily operates in "ask" mode for questions and planning
-- Allows you to work on other tasks or ask questions while team agent is in use
-- Personal workspace that doesn't interfere with team agent sessions
+**What is My Agent**
 
-#### Discussion
+A private, user-level agent that operates outside of the Team Agent.
 
-Discussion mode is an open forum for all team members:
+It is designed for:
 
-- All members can participate freely
-- No agent involvement
-- Standard group chat for team communication
+- Asking questions
+- Planning tasks
+- Exploring ideas
+  All interactions are **isolated from the team’s active workflow**.
 
-## Adding members
+- **Usage Characteristics**
+  - Primarily operates in **ask mode (read-only)**
+  - Can be used **in parallel with Team Agent sessions**
+  - Does not modify the shared project
+  - Usage is **charged to the individual user**, not the project owner
+  - Follows the user’s personal plan or usage-based billing
 
-You can expand your project team in two ways:
+My Agent enables users to stay productive individually, while keeping the team-level collaboration **structured and conflict-free**.
 
-### Add organization members
+<Frame>
+  ![Myagent](/images/Myagent.png)
+</Frame>
 
-Click to add existing members from your organization to the project group chat.
+### **Discussion**
 
-### Invite friends
+Discussion mode is a **team-wide communication space** designed for open collaboration without AI intervention.
 
-Use the **Invite friends** feature to bring in external collaborators:
+**What is Discussion**
 
-- Invited members join the current group chat directly
-- They do NOT automatically join your organization
-- This is useful for temporary collaborators or external partners
+- A shared chat channel where team members can discuss ideas, align on requirements, and coordinate work.
+- It serves as the **human layer of collaboration**, separate from agent-driven execution.
 
-### Joining organizations
+**Usage Characteristics**
 
-Organization membership is always user-initiated:
+- All members can **participate freely**
+- Supports **real-time discussions, feedback, and decision-making**
+- Conversations are visible to the entire team and remain part of the project context
 
-- Users must actively click **Join organization** from the top-left menu or Contacts directory
-- This ensures intentional organization membership rather than automatic enrollment
+**Agent Involvement**
+
+- No agent is involved in this mode
+- No code execution or automated actions are triggered
+
+Discussion mode ensures teams have a dedicated space for **clear communication and alignment**, complementing the structured workflows of agent-based collaboration.

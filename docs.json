@@ -32,13 +32,14 @@
             "group": "Working in CodeBanana",
             "icon": "computer",
             "pages": [
+              "guides/working-in-code-banana/untitled-page",
               "guides/working-in-code-banana/team-agent-mode",
               "guides/working-in-code-banana/models",
-              "guides/working-in-code-banana/untitled-page",
               "guides/working-in-code-banana/project-management",
               "guides/working-in-code-banana/coding-view",
               {
                 "group": "Agent Config",
+                "icon": "robot",
                 "pages": [
                   "guides/working-in-code-banana/basici",
                   "guides/working-in-code-banana/imsetting",
