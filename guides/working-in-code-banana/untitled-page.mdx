@@ -3,9 +3,53 @@ title: "Projects and Chats"
 description: "Communicate and collaborate with team members in CodeBanana"
 ---
 
-## Project and chat relationship
+## **Projects**
 
-Each project in CodeBanana has a corresponding group chat that supports three distinct chat modes for different collaboration needs.
+Projects are the core unit of work, combining code, environment, and collaboration into a single workspace.
+
+#### **Project List**
+
+The project list provides flexible management and navigation:
+
+**Filtering and sorting**:
+
+- By project type, owner, creation time, last activity, etc.
+
+**Project types and structure**:
+
+- Visual indicators for:
+  - GitHub projects
+  - Local projects
+- Projects from the same repository branch are **grouped under a single parent**
+
+![Projectlist](/images/projectlist.png)
+
+![Projectlist 1](/images/projectsort.png)
+
+**Project operations**:
+
+- Additional actions available via the “…” menu
+- Permissions apply to all destructive actions
+
+**File and folder management**:
+
+- Folders:
+  Rename, create, upload, copy path, move, delete, download
+- Files:
+  Rename, copy path, move, delete, download
+
+**Relative path copy**:
+
+- Copies the file path relative to the project or workspace root
+- Deletion requires **agent-level permissions**
+
+**Constraints**:
+
+- Only the **project owner** can delete a project
+- Deletion is allowed **only if the owner has more than one project**
+  <Frame>
+    ![Operateproject](/images/operateproject.png)
+  </Frame>
 
 ## Adding members
 
