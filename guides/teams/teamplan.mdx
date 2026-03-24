@@ -1,0 +1,128 @@
+---
+title: "Team plan"
+description: "Designed for organizations that need shared resources, centralized billing, and controlled access across multiple members."
+---
+
+## **What is Team Plan**
+
+Team Plan provides a **collaborative usage model** where:
+
+- Resources (requests, compute, usage limits) are managed at the **organization level**
+- Billing is centralized under the **organization owner**
+
+### **Plan Structure**
+
+Team Plan consists of two main components:
+
+**Prepaid (Included Usage)**
+
+- Each member receives **300 requests per month**
+- VM configurations can be selected based on usage needs, controlled by the **organization admin**
+- Costs vary depending on the selected VM tier (charged as seat fees)
+
+**Postpaid **
+
+- Activated when included requests are exhausted
+- Additional usage is billed based on actual consumption
+- Usage limits are defined and controlled by the **organization admin**
+
+#### **Admin Controls**
+
+Organization owners manage Team Plan configuration and billing:
+
+**Add members to Team Plan**
+
+- Go to **Usage → Members → Add Member**
+- Select users from the organization
+- Configure:
+  - VM tier
+  - On-demand usage limit
+- Seat fees are charged to the **owner’s payment method** based on VM configuration 
+
+<Frame>
+  ![Addnewteam](/images/addnewteam.png)
+</Frame>
+
+**Modify member plans**
+
+- **Admins can update:**
+  - VM configuration
+  - On-demand usage limits
+- **Upgrade behavior**:
+  - Takes effect immediately
+  - Price difference is charged to the owner**（VM Change Only）**
+- **Downgrade behavior**:
+  - Remaining balance is stored in Stripe**（VM Change Only），**Used to offset future billing
+  - Refunds require manual request via email
+
+<Frame>
+  ![Addteamplanmember](/images/addteamplanmember.png)
+</Frame>
+
+<Frame>
+  ![Chang Vm](/images/changVm.png)
+</Frame>
+
+**Billing management**
+
+- All invoices are available in **Personal Center → Billing**
+
+<Frame>
+  ![Teamplanbill](/images/teamplanbill.png)
+</Frame>
+
+#### **Pricing Logic of Upgrade/Downgrade**
+
+Usage cost is calculated based on the **higher value of**:
+
+- **(Total plan value / total days) × days used**, or
+- **\$0.15 per request**
+
+Remaining balance:
+
+- Balance = Paid amount − Used amount
+- Upgrade cost = New price − Remaining balance
+
+#### **Member Experience**
+
+After Team Plan is enabled:
+
+Members must be **manually added by the admin**
+
+Once added, they receive:
+
+- 300 monthly requests
+- Assigned VM resources
+- Configured usage limits
+
+If limits are reached:
+
+- Members must contact the admin to increase quota
+
+If a member is **not added to Team Plan**:
+
+- Their usage is billed under their **personal plan**
+
+#### **Billing Mechanism**
+
+**Seat fees**
+
+- Charged to the owner when members are added
+
+**Usage billing**
+
+- Automatically charged when:
+  - On-demand usage reaches **\$2000**, or
+  - Every **30 days**
+
+#### **Usage Tracking**
+
+Go to **Personal Center → Usage** to view:
+
+- Token consumption
+- Request usage
+- Overall quota and limits
+
+<Frame>
+  ![Teamplanusage](/images/teamplanusage.png)
+</Frame>
