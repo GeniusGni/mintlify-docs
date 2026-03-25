@@ -110,5 +110,12 @@
     "heading": {
       "family": "Lato"
     }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/mobvoi/CBbot",
+      "x": "https://github.com/mobvoi/CBbot",
+      "discord": "https://github.com/mobvoi/CBbot"
+    }
   }
 }
