@@ -114,8 +114,7 @@ This allows teams to interact with the agent **without entering the CodeBanana i
 
     #### **Configuration in CodeBanana**
 
-    - Paste the Token into **IM Settings**
-      e.g. `123456789:ABCdefGhIJKlmNoPQRStuVWxyZ`
+    - Paste the Token into **IM Settings** e.g. `123456789:ABCdefGhIJKlmNoPQRStuVWxyZ`
   </Accordion>
 
   <Accordion title="WeCom (Enterprise WeChat)">
@@ -243,6 +242,55 @@ This allows teams to interact with the agent **without entering the CodeBanana i
   </Accordion>
 
   <Accordion title="Discord">
+    #### **Create Bot**
+
+    Set up a bot via the Developer Portal:
+
+    - Visit [https://discord.com/developers/applications](https://discord.com/developers/applications)
+    - Click **New Application** → name it (e.g. OpenClaw Bot) → Create
+    - Go to **Bot → Add Bot → Yes, do it!**
+
+    Retrieve credentials:
+
+    - Click **Reset Token** → copy Bot Token (shown once only)
+    - Example format: MTk5OTk5OTkyNzY4OTk4NzYxNg...
+
+    #### **Required Intents (Critical)**
+
+    Enable privileged intents:
+
+    - Scroll to **Privileged Gateway Intents**
+    - Enable all:
+      - Message Content Intent (read message content)
+      - Server Members Intent
+      - Presence Intent
+    - Click **Save Changes**
+
+    #### **Invite Bot to Server**
+
+    Generate an invite link:
+
+    - Go to **OAuth2 → URL Generator**
+
+    Select scopes:
+
+    - bot
+    - applications.commands (for slash commands)
+
+    Select permissions (minimum required):
+
+    - Read Messages / View Channels
+    - Send Messages
+    - Read Message History
+    - Embed Links
+    - Add Reactions (optional)
+    - Copy generated URL → open in browser
+    - Select your server → **Authorize**
+
+    #### **Configuration in CodeBanana**
+
+    - Go to **Personal Center → IM Settings**
+    - Paste the **Bot Token**
   </Accordion>
 
   <Accordion title="Mattermost">
