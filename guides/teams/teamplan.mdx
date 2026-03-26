@@ -3,6 +3,8 @@ title: "Team plan"
 description: "Designed for organizations that need shared resources, centralized billing, and controlled access across multiple members."
 ---
 
+import SnippetIntro from '/snippets/snippet-intro.mdx';
+
 ## **What is Team Plan**
 
 Team Plan provides a **collaborative usage model** where:
@@ -26,6 +28,33 @@ Team Plan consists of two main components:
 - Additional usage is billed based on actual consumption
 - Usage limits are defined and controlled by the **organization admin**
 
+### **Upgrade to Team Plan**
+
+**_Admin Actions_**
+
+<Steps>
+  <Step title="Go to Pricing Page">
+    After logging in, the admin navigates to the **Pricing / Subscription** page and locates the **Team Plan**.
+
+    <Frame>
+      ![Upgradetoteam](/images/upgradetoteam.png)
+    </Frame>
+  </Step>
+  <Step title="Click “Subscribe” and Complete Payment">
+    Click the **Subscribe** button to finish the payment process.
+
+    - Upon activation, the system will immediately charge for the first seat (the admin’s own seat).
+
+    <Frame>
+      ![Teampayment](/images/teampayment.png)
+    </Frame>
+
+    <Note>
+      By default, activating the Team Plan charges for one seat (the admin). Additional seats will be billed based on the actual number of members added later. Please ensure a valid credit card is linked and has sufficient balance.
+    </Note>
+  </Step>
+</Steps>
+
 #### **Admin Controls**
 
 Organization owners manage Team Plan configuration and billing:
@@ -39,6 +68,13 @@ Organization owners manage Team Plan configuration and billing:
   - On-demand usage limit
 - Seat fees are charged to the **owner’s payment method** based on VM configuration
 
+<Info>
+  Before adding members to the Team Plan, users must first request to join the admin’s organization. Only after the admin approves the request can seats be assigned.
+
+  <Card title="How to join an organization？" icon="arrow-right-long" href="guides/teams/org">
+  </Card>
+</Info>
+
 <Frame>
   ![Addnewteam](/images/addnewteam.png)
 </Frame>
@@ -50,9 +86,9 @@ Organization owners manage Team Plan configuration and billing:
   - On-demand usage limits
 - **Upgrade behavior**:
   - Takes effect immediately
-  - Price difference is charged to the owner\*\*（VM Change Only）\*\*
+  - Price difference is charged to the owner（**VM Change Only）**
 - **Downgrade behavior**:
-  - Remaining balance is stored in Stripe\*\*（VM Change Only），\*\*Used to offset future billing
+  - Remaining balance is stored in Stripe（**VM Change Only**），used to offset future billing
   - Refunds require manual request via email
 
 <Frame>
@@ -107,6 +143,7 @@ If a member is **not added to Team Plan**:
 
 **Seat fees**
 
+- The admin seat fee will be charged upon activating the Team Plan
 - Charged to the owner when members are added
 
 **Usage billing**
