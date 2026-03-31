@@ -35,7 +35,6 @@
             "group": "Working in CodeBanana",
             "icon": "computer",
             "pages": [
-              "documentation/working-in-code-banana/onboarding",
               "documentation/working-in-code-banana/project-and-chat",
               "documentation/working-in-code-banana/agent-mode",
               "documentation/working-in-code-banana/models",
