@@ -32,36 +32,36 @@
             "group": "Working in CodeBanana",
             "icon": "computer",
             "pages": [
-              "guides/working-in-code-banana/project-and-chat",
-              "guides/working-in-code-banana/agent-mode",
-              "guides/working-in-code-banana/models",
-              "guides/working-in-code-banana/projectViewer",
+              "documentation/working-in-code-banana/project-and-chat",
+              "documentation/working-in-code-banana/agent-mode",
+              "documentation/working-in-code-banana/models",
+              "documentation/working-in-code-banana/projectViewer",
               {
                 "group": "Agent Config",
                 "pages": [
-                  "guides/working-in-code-banana/basicinfo",
-                  "guides/working-in-code-banana/imsetting",
-                  "guides/working-in-code-banana/skills",
-                  "guides/working-in-code-banana/cron-job"
+                  "documentation/working-in-code-banana/basicinfo",
+                  "documentation/working-in-code-banana/imsetting",
+                  "documentation/working-in-code-banana/skills",
+                  "documentation/working-in-code-banana/cron-job"
                 ]
               },
-              "guides/working-in-code-banana/dev-tools"
+              "documentation/working-in-code-banana/dev-tools"
             ]
           },
           {
             "group": "Account and subscriptions",
             "icon": "id-card-clip",
             "pages": [
-              "guides/account-and-subscriptions/account",
-              "guides/account-and-subscriptions/billing-plan"
+              "documentation/account-and-subscriptions/account",
+              "documentation/account-and-subscriptions/billing-plan"
             ]
           },
           {
             "group": "Teams",
             "icon": "screen-users",
             "pages": [
-              "guides/teams/org",
-              "guides/teams/teamplan"
+              "documentation/teams/org",
+              "documentation/teams/teamplan"
             ]
           }
         ]
