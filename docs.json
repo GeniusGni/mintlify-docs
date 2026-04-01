@@ -28,7 +28,8 @@
                   "quickstarts/templates",
                   "quickstarts/github"
                 ]
-              }
+              },
+              "onboarding"
             ]
           },
           {
