@@ -138,3 +138,26 @@ CBBot supports **Bot-only Skills**, which include local system operations.
 | --- | --- | --- |
 | Cloud Project | Server | Always available |
 | Local Project | Local machine | Offline when client is offline |
+
+```text
+Projects
+├── Cloud Project A (always available)
+├── Cloud Project B (always available)
+├── Local Project C (online available)
+└── Local Project D (online available)
+```
+
+## Permissions
+
+Permission setup differs by system.
+
+**Path:** CBBot → Settings → Permissions
+
+| Permission | Required | Purpose | macOS | Windows |
+| --- | --- | --- | --- | --- |
+| Keep Awake | Optional | Prevent sleep | ✅ | ✅ |
+| Accessibility | Recommended | UI automation | ✅ | — |
+| Full Disk Access | Recommended | File access | ✅ | — |
+| Screen Recording | Optional | Screen capture | ✅ | — |
+
+> Accessibility and Full Disk Access are critical for core functionality. Some changes require restarting the app.
